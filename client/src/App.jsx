@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Login from './Pages/Login.jsx';
 import Register from './Pages/Register.jsx';
-import Dashboard from './Pages/dashboard.jsx'; // Dashboard import karo
+import Dashboard from './Pages/dashboard.jsx';
 
 function App() {
   return (

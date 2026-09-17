@@ -116,25 +116,6 @@ const Login = () => {
               Your Ultimate Hub for Campus Placements & Tech Prep. Master cutting-edge skills with expert-led, AI-powered modules and land your dream job fast.
             </p>
 
-            <div style={styles.statsRow}>
-              <div>
-                <div style={styles.statNumber}>50000+</div>
-                <div style={styles.statLabel}>Career Transitions</div>
-              </div>
-              <div>
-                <div style={styles.statNumber}>156%</div>
-                <div style={styles.statLabel}>Avg. Salary Hike</div>
-              </div>
-              <div>
-                <div style={styles.statNumber}>15+ LPA</div>
-                <div style={styles.statLabel}>Average CTC</div>
-              </div>
-              <div>
-                <div style={styles.statNumber}>97.8%</div>
-                <div style={styles.statLabel}>Success Rate</div>
-              </div>
-            </div>
-
             <div style={styles.featureGrid}>
               <div className="module-card" style={{ ...styles.moduleCard, backgroundColor: '#dbeafe' }}>
                 <div>
@@ -315,7 +296,7 @@ const styles = {
   heroLeft: {
     display: 'flex',
     flexDirection: 'column',
-    gap: '18px',
+    gap: '20px',
   },
   heroTitle: {
     fontSize: '40px',
@@ -326,29 +307,10 @@ const styles = {
     letterSpacing: '-0.8px',
   },
   heroSub: {
-    fontSize: '14.5px',
+    fontSize: '15px',
     color: '#64748b',
     lineHeight: '1.6',
     margin: 0,
-  },
-  statsRow: {
-    display: 'grid',
-    gridTemplateColumns: 'repeat(4, 1fr)',
-    gap: '12px',
-    padding: '16px 0',
-    borderTop: '1px solid #f1f5f9',
-    borderBottom: '1px solid #f1f5f9',
-  },
-  statNumber: {
-    fontSize: '18px',
-    fontWeight: '800',
-    color: '#7c3aed',
-  },
-  statLabel: {
-    fontSize: '11px',
-    color: '#64748b',
-    fontWeight: '500',
-    marginTop: '2px',
   },
   featureGrid: {
     display: 'grid',
@@ -358,7 +320,7 @@ const styles = {
   },
   moduleCard: {
     borderRadius: '12px',
-    padding: '14px 16px',
+    padding: '16px',
     display: 'flex',
     justifyContent: 'space-between',
     alignItems: 'center',
